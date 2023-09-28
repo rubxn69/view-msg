@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main h1{
+    background-color: aquamarine;
+    height: 10%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.msg-content{
+    height: 75%;
+    width: 80%;
+    background-color: beige;
+    display: flex;
+    
+    justify-content: center;
+    overflow-y: scroll;
+    
+    
+    
+}
+.msg-content ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+
+}
+
+.msg-content ul li{
+    min-height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    list-style: none;
+
+    
+    
+
+}
