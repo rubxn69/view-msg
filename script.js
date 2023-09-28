@@ -21,7 +21,7 @@ onValue(nameInDB, function(snapshot) {
    msgEl.innerHTML = ""
    for(let i = 0; i<nameArray.length;i++){
     
-    appendMsg(nameArray[i])
+    appendMsg(nameArray[nameArray.length-i-1])
     console.log(nameArray[i].email)
    }
             
